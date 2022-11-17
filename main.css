@@ -26,7 +26,8 @@ header p {
 
 form,
 .success-message,
-.error-message {
+.error-message,
+.equal-message {
     margin-left: 100px;
 }
 
@@ -57,7 +58,8 @@ button:hover {
 }
 
 .success-message,
-.error-message {
+.error-message,
+.equal-message {
     color: #fff;
     padding: 16px;
     text-align: center;
@@ -72,4 +74,8 @@ button:hover {
 
 .error-message {
     background-color: #c71616;
+}
+
+.equal-message {
+    background-color: #ad9c01
 }
