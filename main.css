@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    background-image: url(./images/post-it.jpg);
+    background-size: cover;
+    color:rgb(35, 97, 168);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+header img {
+    height: 84px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+input, button {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: rgb(35, 97, 168);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    color: #fff;
+    padding: 2px
+}
+
+button:hover {
+    background-color: rgb(23, 72, 128);
+}
+
+.list {
+    max-width: 280px;
+    width: 100%;
+    margin: 16px auto;
+    font-size: 22px;
+}
+
+.list ol li {
+    display: none;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 8px;
+}
