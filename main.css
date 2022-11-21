@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+    background-image: url(./images/19168111_MockUp3.jpg);
+    background-size: cover;
+    color: rgb(223, 18, 131);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 48px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+
+form {
+    margin-left: 380px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    display: flex;
+    width: 240px;
+    height: 32px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(223, 18, 131);
+    border: 1px solid rgb(223, 18, 131);
+}
+
+input:focus {
+    outline: 0;
+    padding: 8px;
+}
+
+button {
+    width: 120px;
+    height: 32px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(64, 165, 25);
+    color: #fff;
+    cursor: pointer;
+}
