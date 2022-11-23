@@ -1,0 +1,44 @@
+body {
+    background-image: url(./images/financial.jpg);
+    background-size: cover;
+    color: rgb(216, 64, 64);
+}
+
+header {
+    margin: 36px 0;
+}
+
+h1 {
+    margin-left: 340px;
+}
+
+h2 {
+    margin-bottom: 24px;
+    margin-left: 430px;
+}
+
+form {
+    width: 280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+form label {
+    margin-top: 8px;
+}
+
+.form-label {
+    margin-bottom: 0;
+}
+
+form button {
+    margin-top: 16px;
+}
+
+.form-check {
+    margin-top: 8px;
+}
+
+.form-check label {
+    margin: 0;
+}
