@@ -1,0 +1,37 @@
+@use 'config/reset';
+@use 'config/variaveis';
+@use 'section/secoes';
+
+
+body {
+    background-color: variaveis.$corDeFundo;
+}
+
+@media screen and (max-width: variaveis.$tablet) {
+    body {
+        background-color: blue;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    body {
+        background-color: red;
+    }
+
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
