@@ -5,8 +5,18 @@
   font-family: Roboto, sans-serif;
 }
 
+body {
+  background-color: #f5f6fa;
+}
+
 li {
   list-style: none;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 header {
@@ -16,27 +26,21 @@ header {
   left: 0;
 }
 header .container {
-  display: flex;
+  display: Flex;
   justify-content: space-between;
   align-items: center;
   padding: 16px 0;
 }
-header .menu {
-  display: flex;
+header .container .menu {
+  display: Flex;
 }
-header .menu li {
+header .container .menu li {
   font-weight: bold;
   margin-left: 24px;
 }
-header .menu li a {
+header .container .menu li a {
   color: #fff;
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1024px;
-  width: 100%;
-  margin: 0 auto;
+  text-decoration: None;
 }
 
 section {
@@ -62,37 +66,30 @@ section .products .product-button {
   padding: 8px 0;
   border-radius: 8px;
   margin-top: 8px;
-  text-decoration: none;
+  text-decoration: None;
 }
 section .products .product-button:hover {
-  background-color: #74d665;
+  background-color: #4cd137;
 }
 
-body {
-  background-color: #f5f6fa;
-}
-
-@media screen and (max-width: 1023px) {
-  body {
-    background-color: blue;
-  }
+@media screen and (max-width: 767px) {
   .container {
     max-width: 80%;
   }
-  .products {
-    grid-template-columns: repeat(2, 48.5%);
-    column-gap: 3%;
-  }
-}
-@media screen and (max-width: 767px) {
-  body {
-    background-color: red;
-  }
-  .products {
+  .container .products {
     display: block;
   }
-  .product-item {
+  .container .product-item {
     margin-bottom: 32px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 80%;
+  }
+  .container .products {
+    grid-template-columns: repeat(2, 48.5%);
+    column-gap: 3%;
   }
 }
 

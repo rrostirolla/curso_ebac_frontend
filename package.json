@@ -1,5 +1,5 @@
 {
-  "name": "nova-pasta",
+  "name": "exercicio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "sass": "^1.56.1"
   }
 }
