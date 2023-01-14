@@ -33,6 +33,9 @@ let alunos = [
     },
 ];
 
-let alunosAprovados = alunos.filter(alunos => alunos.nota >= 6);
+function alunosAprovados(alunos) {
+    const alunosNotaMaisDeSeis = alunos.filter(alunos => alunos.nota >= 6);
+    return alunosNotaMaisDeSeis
+};
 
-console.log(alunosAprovados);
+console.log(alunosAprovados (alunos));
