@@ -1,3 +1,21 @@
+# Testes com Cypress
+
+### 📝 Descrição
+Criação de testes para o site, onde foi aplicado o Cypress para: </br>
+- Correta renderização da página;
+- Inclusão de um novo contato;
+- Alteração de um novo contato;
+- Exclusão de um novo contato.
+
+</br>
+
+### 👨🏻‍💻 Tecnologias utilizadas 
+Cypress
+
+
+</br>
+</br>
+</br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
