@@ -4,8 +4,8 @@
 Criação de testes para o site, onde foi aplicado o Cypress para: </br>
 - Correta renderização da página;
 - Inclusão de um novo contato;
-- Alteração de um novo contato;
-- Exclusão de um novo contato.
+- Alteração de um contato;
+- Exclusão de um contato.
 
 </br>
 
